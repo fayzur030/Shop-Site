@@ -63,7 +63,7 @@ export default function AppFooter() {
     },
   ]
   return (
-    <Footer className='max-w-7xl mx-auto mt-8 bg-white'>
+    <Footer className='max-w-7xl mx-auto mt-8  bg-white'>
       <div className='grid grid-cols-1 md:grid-cols-4 gap-4 pb-8 border-b border-gray-400 '>
         {footerItem.map((item) => (
           <a
